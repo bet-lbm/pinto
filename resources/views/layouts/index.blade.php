@@ -210,5 +210,7 @@
   <!-- Custom Theme Scripts -->
   <script src="../build/js/custom.min.js"></script>
 
+  <script src="{{asset('js/app.js')}}"></script>
+
 </body>
 </html>
