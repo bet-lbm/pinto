@@ -26,5 +26,5 @@ Route::name('edit_client_path')->get('/clients/{client}/edit','ClientController@
 Route::name('update_client_path')->get('/clients/{client}','ClientController@update');
 Route::name('delete_client_path')->get('/clients/{client}','ClientController@delete');
 
-Route::name('clients_path')->get('/clients','ClientController@create');
+Route::name('clients_path')->get('/clients','ClientController@index');
 Route::name('client_path')->get('/clients/{client}','ClientController@show');
